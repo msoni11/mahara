@@ -35,12 +35,6 @@ class PluginArtefactFile extends PluginArtefact {
 
     public static function menu_items() {
         return array(
-            'content/files' => array(
-                'path' => 'content/files',
-                'url' => 'artefact/file/index.php',
-                'title' => get_string('Files', 'artefact.file'),
-                'weight' => 30,
-            ),
             'content/profileicons' => array(
                 'path' => 'content/profileicons',
                 'url' => 'artefact/file/profileicons.php',

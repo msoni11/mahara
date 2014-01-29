@@ -34,7 +34,7 @@ class PluginArtefactBlog extends PluginArtefact {
     public static function menu_items() {
         global $USER;
         $tab = array(
-            'path'   => 'content/blogs',
+            'path'   => 'myportfolio/blogs',
             'weight' => 40,
         );
         if ($USER->get_account_preference('multipleblogs')) {
@@ -45,7 +45,7 @@ class PluginArtefactBlog extends PluginArtefact {
             $tab['url']   = 'artefact/blog/view/index.php';
             $tab['title'] = get_string('blog', 'artefact.blog');
         }
-        return array('content/blogs' => $tab);
+        return array('myportfolio/blogs' => $tab);
     }
 
     public static function get_cron() {

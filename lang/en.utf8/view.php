@@ -369,6 +369,7 @@ $string['blockcopypermissiondesc'] = 'If you allow other users to copy this page
 $string['dashboard'] = 'Dashboard';
 $string['profile'] = 'Profile';
 $string['portfolio'] = 'Portfolio';
+$string['myportfolio'] = 'My Portfolio';
 $string['grouphomepage'] = 'Group homepage';
 
 $string['grouphomepagedescription'] = 'The Group homepage is the content that appears on the About tab for this group';
@@ -397,3 +398,14 @@ $string['image'] = 'Image';
 $string['imagetooltip'] = 'Add a single image';
 $string['addcontent'] = 'Add Content';
 $string['theme'] = 'Theme';
+
+
+// new links
+$string['Files'] = 'Files';
+$string['Journal'] = 'Journal';
+
+$string['peers'] = 'Peers';
+$string['findpeers'] = 'Find Peers';
+$string['courses'] = 'Courses';
+$string['mycourses'] = 'My Courses';
+$string['findcourses'] = 'Find Courses';
