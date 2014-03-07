@@ -544,7 +544,7 @@ class AuthXmlrpc extends Auth {
             //redirect($this->wwwroot);
 			//msoni : Close the window after clearing session. PHP header is tricky thing here.
             ob_start();
-            echo "<script>window.close();</script>";
+            echo "<script>window.open('', '_self', '');window.close();</script>";
             $content = ob_get_clean();
             echo $content;
         }
