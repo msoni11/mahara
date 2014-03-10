@@ -542,11 +542,12 @@ class AuthXmlrpc extends Auth {
             // Explicit logout request
             //$this->kill_parent($remoteusername);
             //redirect($this->wwwroot);
-			//msoni : Close the window after clearing session. PHP header is tricky thing here.
+            //msoni : Close the window after clearing session. PHP header is tricky thing here.
             ob_start();
             echo "<script>window.open('', '_self', '');window.close();</script>";
             $content = ob_get_clean();
             echo $content;
+            die;
         }
         elseif (!$this->parent) {
             $this->kill_parent($remoteusername);
