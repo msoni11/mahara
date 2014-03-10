@@ -547,6 +547,7 @@ class AuthXmlrpc extends Auth {
             echo "<script>window.open('', '_self', '');window.close();</script>";
             $content = ob_get_clean();
             echo $content;
+            die;
         }
         elseif (!$this->parent) {
             $this->kill_parent($remoteusername);
